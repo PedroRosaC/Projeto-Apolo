@@ -52,7 +52,6 @@ while opcao != 7:
     if opcao == 6:
         radiciacao(x,y)
     
-    opcao = int(input("Entre com a sua opção"))
     print("escolha sua opção: ")
     print("Opção 1 : Adição")
     print("Opção 2 : subtração")
@@ -61,6 +60,9 @@ while opcao != 7:
     print("Opção 5 : exponenciação")
     print("Opção 6 : Radiciação")
     print("Opção 7 : Encerrar o programa")
+    opcao = int(input("Entre com a sua opção"))
+    x = int(input("entre com o numero x : "))
+    y = int(input("entre com o numero y : "))
     
     
     
